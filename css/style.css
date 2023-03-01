@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+.body {
+	font-family: 'Montserrat', sans-serif, 'Arial',  sans-serif;
+	min-width: 345px;
+	background: #F3F3F3;
+	/* padding-bottom: 15px; */
+}
+
+.container {
+	max-width: 1046px;
+	min-width: 345px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.choose {
+	padding-top: 50px;
+}
+
+.choose__title {
+	display: flex;
+	justify-content: center;
+	font-size: 36px;
+	line-height: 80px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #252B42;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	text-transform: uppercase;
+}
+
+
+.choose__subtitle {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 143%;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #737373;
+	order: 1;
+	flex-grow: 0;
+	padding-bottom: 75px;
+	padding-top: 10px;
+}
+
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 -15px;
+}
+
+.card-list__item {
+	width: 100%;
+	margin: 15px 0;
+}
+
+.card-list__box {
+	padding: 30px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFFFFF
+}
+
+.card-content {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 142%;
+	letter-spacing: 0.2px;
+	color: #252B42;
+	text-transform: uppercase;
+}
+
+
+.card-subcontent {
+	font-size: 16px;
+	line-height: 145%;
+	text-align: center;
+	letter-spacing: 0.1px;
+	color: #737373;
+	text-transform: uppercase;
+}
+/* ----------Practice Advice----------- */
+.practice {
+	padding: 125px;
+}
+.practice-title {
+	display: flex;
+	justify-content: center;
+	font-size: 36px;
+	line-height: 57px;
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+.practice-subtitle {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+/* ----------карточки с изображениями----------- */
+.practice-list {
+	display: flex;
+	flex-wrap: wrap;
+	display: flex;
+	margin: 0 -15px;
+	padding-top: 30px;
+}
+.practice-list__box {
+	width: 100%;
+	padding-top: 30px;
+}
+.practice-list__item {
+	display: flex;
+	flex-direction: column;
+	font-size: 0;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.practice-list__item img {
+	width: 100%;
+}
+.practice-list__item-title {
+	padding: 30px 0px 0px 30px;
+	width: 65%;
+	display: flex;
+	/* align-self: flex-start; */
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	color: #252B42;
+}
+.practice-list__item-subtitle {
+	padding: 30px 0px 30px 30px;
+	width: 65%;
+	display: flex;
+	flex: 1 1 auto;
+	/* align-self: flex-start; */
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+@media (min-width: 640px) {
+	.card-list {
+		padding-top: 50px;
+	}
+	.card-list__item {
+		width: 25%;
+		padding: 0px 15px ;
+	}
+	.card-list__box {
+		height: 100%;
+	}
+	.choose {
+		background: linear-gradient(180deg, #FAFAFA 0%, #E2E2E2 100%);
+		padding-bottom: 80px;
+	}
+	.practice-list__box {
+		width: 25%;
+		padding: 0 15px;
+	}
+	.practice-list__item {
+		height: 100%;
+	}
+
+}
+
+
+
+
+
